@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="6" total="16" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="233011" started-at="2022-01-30T12:21:50 IST" finished-at="2022-01-30T12:25:43 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="233011" started-at="2022-01-30T12:21:50 IST" finished-at="2022-01-30T12:25:43 IST">
+      <class name="com.Test.EditPersonalDetails">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.Test.EditPersonalDetails@7e07db1f]" name="OpenBrowser" is-config="true" duration-ms="9371" started-at="2022-01-30T12:23:37 IST" finished-at="2022-01-30T12:23:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="TC_MyInfo_006()[pri:0, instance:com.Test.EditPersonalDetails@7e07db1f]" name="TC_MyInfo_006" duration-ms="13665" started-at="2022-01-30T12:23:47 IST" finished-at="2022-01-30T12:24:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_MyInfo_006 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.Test.EditPersonalDetails@7e07db1f]" name="TearDown" is-config="true" duration-ms="1074" started-at="2022-01-30T12:24:00 IST" finished-at="2022-01-30T12:24:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.Test.EditPersonalDetails -->
+      <class name="com.Test.AddPhotograph">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.Test.AddPhotograph@36bc55de]" name="OpenBrowser" is-config="true" duration-ms="9869" started-at="2022-01-30T12:24:23 IST" finished-at="2022-01-30T12:24:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="TC_MyInfo_008()[pri:0, instance:com.Test.AddPhotograph@36bc55de]" name="TC_MyInfo_008" duration-ms="20626" started-at="2022-01-30T12:24:33 IST" finished-at="2022-01-30T12:24:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_MyInfo_008 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.Test.AddPhotograph@36bc55de]" name="TearDown" is-config="true" duration-ms="1074" started-at="2022-01-30T12:24:54 IST" finished-at="2022-01-30T12:24:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.Test.AddPhotograph -->
+      <class name="com.Test.ContactDetails">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.Test.ContactDetails@564fabc8]" name="OpenBrowser" is-config="true" duration-ms="9843" started-at="2022-01-30T12:24:55 IST" finished-at="2022-01-30T12:25:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="TC_MyInfo_009()[pri:0, instance:com.Test.ContactDetails@564fabc8]" name="TC_MyInfo_009" duration-ms="8961" started-at="2022-01-30T12:25:05 IST" finished-at="2022-01-30T12:25:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_MyInfo_009 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.Test.ContactDetails@564fabc8]" name="TearDown" is-config="true" duration-ms="1025" started-at="2022-01-30T12:25:14 IST" finished-at="2022-01-30T12:25:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.Test.ContactDetails -->
+      <class name="com.Test.NonEditabelPersonalDetails">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.Test.NonEditabelPersonalDetails@1189dd52]" name="OpenBrowser" is-config="true" duration-ms="10923" started-at="2022-01-30T12:24:01 IST" finished-at="2022-01-30T12:24:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="FAIL" signature="TC_MyInfo_007()[pri:0, instance:com.Test.NonEditabelPersonalDetails@1189dd52]" name="TC_MyInfo_007" duration-ms="9756" started-at="2022-01-30T12:24:12 IST" finished-at="2022-01-30T12:24:22 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at com.Test.NonEditabelPersonalDetails.TC_MyInfo_007(NonEditabelPersonalDetails.java:54)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_MyInfo_007 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.Test.NonEditabelPersonalDetails@1189dd52]" name="TearDown" is-config="true" duration-ms="1063" started-at="2022-01-30T12:24:22 IST" finished-at="2022-01-30T12:24:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.Test.NonEditabelPersonalDetails -->
+      <class name="com.Test.VerifyPersonalDetails">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.Test.VerifyPersonalDetails@35cabb2a]" name="OpenBrowser" is-config="true" duration-ms="9578" started-at="2022-01-30T12:23:17 IST" finished-at="2022-01-30T12:23:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="TC_MyInfo_005()[pri:0, instance:com.Test.VerifyPersonalDetails@35cabb2a]" name="TC_MyInfo_005" duration-ms="9202" started-at="2022-01-30T12:23:27 IST" finished-at="2022-01-30T12:23:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_MyInfo_005 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.Test.VerifyPersonalDetails@35cabb2a]" name="TearDown" is-config="true" duration-ms="1008" started-at="2022-01-30T12:23:36 IST" finished-at="2022-01-30T12:23:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.Test.VerifyPersonalDetails -->
+      <class name="com.Test.EditContactDetails">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.Test.EditContactDetails@16d04d3d]" name="OpenBrowser" is-config="true" duration-ms="14687" started-at="2022-01-30T12:25:15 IST" finished-at="2022-01-30T12:25:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="TC_MyInfo_010()[pri:0, instance:com.Test.EditContactDetails@16d04d3d]" name="TC_MyInfo_010" duration-ms="12078" started-at="2022-01-30T12:25:30 IST" finished-at="2022-01-30T12:25:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_MyInfo_010 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.Test.EditContactDetails@16d04d3d]" name="TearDown" is-config="true" duration-ms="1009" started-at="2022-01-30T12:25:42 IST" finished-at="2022-01-30T12:25:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.Test.EditContactDetails -->
+      <class name="com.Test.VerifyLogin">
+        <test-method status="PASS" signature="bs()[pri:0, instance:com.Test.VerifyLogin@72d1ad2e]" name="bs" is-config="true" duration-ms="4667" started-at="2022-01-30T12:21:45 IST" finished-at="2022-01-30T12:21:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bs -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.Test.VerifyLogin@72d1ad2e]" name="OpenBrowser" is-config="true" duration-ms="18290" started-at="2022-01-30T12:21:50 IST" finished-at="2022-01-30T12:22:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="TC_001(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Test.VerifyLogin@72d1ad2e]" name="TC_001" duration-ms="7799" started-at="2022-01-30T12:22:08 IST" data-provider="TestData" finished-at="2022-01-30T12:22:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.Test.VerifyLogin@72d1ad2e]" name="TearDown" is-config="true" duration-ms="1992" started-at="2022-01-30T12:22:16 IST" finished-at="2022-01-30T12:22:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.Test.VerifyLogin@72d1ad2e]" name="OpenBrowser" is-config="true" duration-ms="15371" started-at="2022-01-30T12:22:18 IST" finished-at="2022-01-30T12:22:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="TC_001(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Test.VerifyLogin@72d1ad2e]" name="TC_001" duration-ms="7711" started-at="2022-01-30T12:22:33 IST" data-provider="TestData" finished-at="2022-01-30T12:22:41 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.Test.VerifyLogin@72d1ad2e]" name="TearDown" is-config="true" duration-ms="1523" started-at="2022-01-30T12:22:41 IST" finished-at="2022-01-30T12:22:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.Test.VerifyLogin@72d1ad2e]" name="OpenBrowser" is-config="true" duration-ms="9286" started-at="2022-01-30T12:22:42 IST" finished-at="2022-01-30T12:22:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="TC_001(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Test.VerifyLogin@72d1ad2e]" name="TC_001" duration-ms="7068" started-at="2022-01-30T12:22:52 IST" data-provider="TestData" finished-at="2022-01-30T12:22:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.Test.VerifyLogin@72d1ad2e]" name="TearDown" is-config="true" duration-ms="1134" started-at="2022-01-30T12:22:59 IST" finished-at="2022-01-30T12:23:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:com.Test.VerifyLogin@72d1ad2e]" name="OpenBrowser" is-config="true" duration-ms="8910" started-at="2022-01-30T12:23:00 IST" finished-at="2022-01-30T12:23:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="TC_001(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.Test.VerifyLogin@72d1ad2e]" name="TC_001" duration-ms="7021" started-at="2022-01-30T12:23:09 IST" data-provider="TestData" finished-at="2022-01-30T12:23:16 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1234567]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.Test.VerifyLogin@72d1ad2e]" name="TearDown" is-config="true" duration-ms="1520" started-at="2022-01-30T12:23:16 IST" finished-at="2022-01-30T12:23:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.Test.VerifyLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
